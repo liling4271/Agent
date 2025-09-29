@@ -31,7 +31,7 @@ public class OllamaService {
             // 构建请求体
             String requestBody = """
             {
-                "model": "deepseek-coder:1.3b",
+                "model": "deepseek-coder:6.7b",
                 "prompt": "%s",
                 "stream": false,
                 "options": {
